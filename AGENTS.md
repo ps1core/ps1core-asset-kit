@@ -36,7 +36,14 @@ The person you work for decides what to make and approves how it looks; show the
 - A new clip is new frames: append them to every surface's `verts` (and `normals`, or pass `normals=None`), name them
   `<clip>0..n`, and add `"clip": [first, last, fps]` to the catalog entry. Keep it in place and keep the feet at z −24.
 - Removing a part (a helmet, a rifle) is removing its surface; the surface name and shader tell you which is which.
+- There is no skeleton: frames are vertex positions (README, "Animation: what is quick and what is not"). Repaint,
+  remove, reshape, re-time and combine are quick; new motion needs a rig in a modelling tool. Say so to the person
+  before starting a new clip, and don't present stretched or warped existing frames as a new move.
 - Textures: `tools/tex.py` has `save`, `normal_from_height` (writes the `_norm` map) and tileable `fbm` noise.
+- Real materials: `tools/cc0_material.py` (optional) turns a CC0 ambientCG material into one surface's three maps.
+  Use it on surfaces that are one material; on a painted atlas (faces, mixed gear) it shows seams and loses the paint.
+  `--list` is a shortlist (16 that ps1core uses); any other of ambientCG's 2,931 assets (as of 2026-11-07) works with `--new`, and its printed SHA-256 goes
+  in SOURCES.md.
 - Use the `uv` scripts' pinned dependencies (numpy 2.3.1, Pillow 11.3.0); don't add packages without asking the person.
 
 ## Don't

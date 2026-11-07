@@ -1,6 +1,6 @@
 # Wishlist
 
-What people ask for that the cast cannot play yet. Pick anything; tell us first so two people don't make the same thing.
+What people ask for that the cast cannot play yet. Pick anything; tell us first on the [ps1core Discord](https://discord.gg/4e45kQyeN9) so two people don't make the same thing.
 
 ## From a real prompt: a night infiltration on the 1942 beach
 
@@ -14,8 +14,9 @@ this kind of scene, with no recognisable costume, face or gear from that game (o
 
 **Character: an infiltrator** (original design; modern or WWII-era both work)
 - A diver/infiltrator in a dark wetsuit or close-fitting suit, harness and pouches, a small radio. 70–75 units tall.
-- Quickest route: derive from a soldier (`tools/derive.py bf_ger_rifleman ...`), drop the helmet and rifle surfaces,
-  repaint as a wetsuit, and add the clips below by editing frames.
+- Quickest route for the body: derive from a soldier (`tools/derive.py bf_ger_rifleman ...`), drop the helmet and
+  rifle surfaces, repaint as a wetsuit. The new clips below are the real work: they need a rigged character in a
+  modelling tool (README, "Animation: what is quick and what is not").
 - Every required and recommended clip in SPEC.md, plus these new ones:
 
 | clip | what it shows |

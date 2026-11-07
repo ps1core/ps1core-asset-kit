@@ -86,7 +86,8 @@ What the soldiers' clips look like (feet at z −24, measured):
 Two kinds of model, and `SOURCES.md` says which each one is:
 
 - **Original**: your own work, or under a license that lets us use and redistribute it (CC0, CC-BY with the credit
-  written in SOURCES.md).
+  written in SOURCES.md). CC0 materials from ambientCG count: `tools/cc0_material.py` fetches them; name the
+  material id in SOURCES.md (and the SHA-256 the tool prints for one that is not in `reference/cc0.lock.json`).
 - **Based on the cast** (`tools/fetch_cast.py [beyond]`, then `tools/derive.py`): a 1942 soldier or prop, or a beyond
   creature (ghouls, vampires, the tall ones, the shoggoth, Cthulhu), reshaped, repainted or given new clips. Welcome: it is often the quickest way to a new character. It carries the site's 1942 terms (free films
   only, like the 1942 sets) and its catalog entry keeps `"based_on"`.

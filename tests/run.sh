@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# End-to-end test of the kit's tools: build the buoy example, derive a 1942 soldier and a beyond ghoul, check them,
+# End-to-end test of the kit's tools: build the buoy example, derive a 1942 soldier (its tunic repainted with a CC0
+# material) and a beyond ghoul, check them,
 # draw their previews with maps and without (--flat), and make sure check.py rejects a broken entry.
 #
 #   tests/run.sh [--full] [--out DIR]
@@ -7,7 +8,7 @@
 #   --full     also the shoggoth part (beyond shoggoth_a, 58k vertices): about 2 minutes more in the software preview
 #   --out DIR  keep the submission and the preview sheets in DIR (default: a temporary folder, deleted at the end)
 #
-# Downloads the cast packages on first use (tools/fetch_cast.py: about 800 MB + 340 MB, cached). About 30 s after that.
+# Downloads the cast packages (tools/fetch_cast.py: about 800 MB + 340 MB) and one CC0 material on first use, cached. About 30 s after that.
 set -euo pipefail
 KIT=$(cd "$(dirname "$0")/.." && pwd); cd "$KIT"
 FULL=0; OUT=
@@ -27,6 +28,8 @@ uv run -q tools/derive.py bf_ger_rifleman kit_example_diver "$SUB" --clips idle,
   --desc "a diver test, derived from the German rifleman, unchanged" >/dev/null
 uv run -q tools/derive.py gh_m kit_example_ghoul "$SUB" --cast beyond --clips idle,walk,run,die \
   --desc "a ghoul test, derived from gh_m, unchanged" >/dev/null
+uv run -q tools/cc0_material.py Leather030 --out "$SUB/progs/kit_example/kit_example_diver_GerBody_tunic" --tile 3 >/dev/null \
+  || fail "cc0_material.py"
 MODELS="kit_buoy kit_example_diver kit_example_ghoul"
 if [ "$FULL" = 1 ]; then
   uv run -q tools/derive.py shoggoth_a kit_example_shog "$SUB" --cast beyond \

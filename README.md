@@ -16,6 +16,7 @@ What's in the kit:
 | `AGENTS.md` | the workflow in steps, for a coding agent (Claude Code, Codex, ...) doing the work |
 | `tools/fetch_cast.py` | downloads the cast's models (pinned, SHA-256 checked) into `cast/1942/`, or `cast/beyond/` with `beyond` |
 | `tools/derive.py` | starts a new model from a cast model (1942 by default, `--cast beyond`): mesh, chosen clips, textures, catalog entry |
+| `tools/cc0_material.py` | optional: turns a CC0 material from ambientCG (leather, fabric, concrete, rusty metal...) into a surface's albedo, `_norm` and `_gloss` maps, pinned by SHA-256 |
 | `tools/check.py` | checks a submission against the spec |
 | `tools/preview.py` | a contact sheet of one model (four views, every clip, a soldier-height bar) with its normal, gloss and glow maps; software only, no engine or GPU (see below) |
 | `tools/md3.py`, `tools/tex.py` | an MD3 writer and texture helpers (normal-from-height, tileable noise), for building from code |
@@ -52,17 +53,34 @@ Not needed for models you make from scratch.
 
 ## Making a model
 
-1. Pick something from `WISHLIST.md` (or propose your own) and tell us, so nobody else makes it too.
+1. Pick something from `WISHLIST.md` (or propose your own) and tell us on the [ps1core Discord](https://discord.gg/4e45kQyeN9), so nobody else makes it too.
 2. Choose a short collection prefix, e.g. your handle: `mycoll`. Every id and file starts with it.
 3. Start from the 1942 cast (`tools/fetch_cast.py`, then `tools/derive.py bf_ger_rifleman mycoll_diver SUB --clips ...`)
    and repaint, reshape or add clips; or model it in any tool and export to MD3 (Blender has community MD3 exporters);
-   or build it from code with `tools/md3.py` as `examples/buoy/build.py` does. Follow `SPEC.md`: 72.7 units for a soldier-sized person,
+   or build it from code with `tools/md3.py` as `examples/buoy/build.py` does. To repaint a surface that is one material
+   (a tunic as a wetsuit, a wall as concrete), `tools/cc0_material.py --list` shows a shortlist of 16 CC0 materials ps1core already uses (any other of
+   [ambientCG](https://ambientcg.com)'s 2,931 assets, as of 2026-11-07, works with `--new`); it writes all
+   three maps for one surface (`tools/cc0_material.py Leather030 --out SUB/progs/mycoll/mycoll_diver_GerBody_tunic --tile 3`). Follow `SPEC.md`: 72.7 units for a soldier-sized person,
    feet at z −24, facing +X, in-place clips, one PNG per surface plus `_norm` / `_gloss` / `_glow`.
 4. Copy `submission-template/` and rename `progs/mycoll/` to your prefix. Put your MD3s and PNGs there, add a catalog
    entry per model to `models.json`, and a line per model to `SOURCES.md`.
 5. `tools/check.py SUBMISSION` until there are no errors, then `tools/preview.py SUBMISSION MODEL` and look at it:
    is it the right size next to the soldier bar, facing the right way, and do the clips loop?
-6. Send the folder (zipped) to whoever gave you this kit.
+6. Zip the folder and send it to us on the [ps1core Discord](https://discord.gg/4e45kQyeN9).
+
+## Animation: what is quick and what is not
+
+Models are vertex-animated: each frame stores every vertex, and there is no skeleton or rig anywhere in the kit or in
+the cast you download. So:
+
+- **Quick:** repaint, remove or reshape parts (a helmet, a rifle), change the size; reuse, re-time or combine clips the
+  source model already has. `derive.py` and a few lines of numpy do it, and a coding agent can do it for you.
+- **Real work:** new motion, such as a diver's underwater stroke, climbing out of the water or talking on a radio. That
+  needs a rigged character animated in Blender (or similar) and exported to MD3, or a body built and animated from code
+  (fine for simple things like the buoy's bob, hard for a convincing person). Stretching or warping existing frames does
+  not make a believable new move.
+
+If the clip you need is the hard kind, tell us on the Discord before you start.
 
 ## The preview is not the film look
 
@@ -92,7 +110,7 @@ tests/run.sh --full       # also the shoggoth part, a big model: about 2 minutes
 tests/run.sh --out DIR    # keep the test submission and the preview sheets to look at
 ```
 
-It builds the buoy, derives a 1942 soldier and a beyond ghoul, checks them, draws their previews with and without
+It builds the buoy, derives a 1942 soldier (repainting its tunic with a CC0 material) and a beyond ghoul, checks them, draws their previews with and without
 maps, and makes sure `check.py` rejects a broken entry. Run it after changing anything in `tools/`.
 
 ## License

@@ -1,0 +1,71 @@
+{
+ "source": "ambientCG (https://ambientcg.com), 1K JPG sets",
+ "license": "CC0 1.0 Universal (public domain dedication): https://docs.ambientcg.com/license/ - commercial use, modification and redistribution allowed, no attribution required (credited anyway)",
+ "note": "Materials vetted by ps1core (pinned by SHA-256 of the 1K JPG zip, fetched 2026-10-27, used in ps1core sets). Others: tools/cc0_material.py --new.",
+ "materials": {
+  "Bricks097": {
+   "sha256": "97b5df360161e48bcfed609aef361e8115b680ddc0aea4ad9321d4b00e222ad0",
+   "use": "damaged brown brick walls"
+  },
+  "Bricks082A": {
+   "sha256": "ed11c95962a77ec9d9817f2c09a7a698cc640f7953f1e9576783c3a120030cd6",
+   "use": "dark brown-red brick walls"
+  },
+  "Bricks075B": {
+   "sha256": "d3ca2f8541b94626174829b82b3afba7d102d0a905f28fa084b633a10a827052",
+   "use": "dirty mossy old brick"
+  },
+  "PaintedPlaster006": {
+   "sha256": "fd622afe5f601f3f31eb5c1ab1484dba99b698b857d70b7820a31d7275f74ded",
+   "use": "broken painted plaster facades"
+  },
+  "PaintedPlaster015": {
+   "sha256": "792b97898cd4f583059de5eafd62293a11a44834ec9b771bf1a515d98c464d03",
+   "use": "broken painted plaster over brick"
+  },
+  "Concrete036": {
+   "sha256": "fc46d520135bb9c8aec364ea2694a4794facd58bee1c124b3f64f119a9b74603",
+   "use": "dark old concrete, curbs, block ends"
+  },
+  "WoodSiding008": {
+   "sha256": "d8bd0c00724eadc5eba0f738b382500d154ed67ba240f7567f6df74887e790b4",
+   "use": "dark mossy wood siding houses"
+  },
+  "Road013A": {
+   "sha256": "5cb974b0adf4a7a793308c34641fffb99bee1befcc2629799406da5af3bb08d3",
+   "use": "cracked asphalt road"
+  },
+  "Concrete031": {
+   "sha256": "3068e551435d3cdae3942017799d8871b940c88ebfaf5c2b87376972ae448fd6",
+   "use": "mouldy concrete sidewalk tiles"
+  },
+  "Snow013": {
+   "sha256": "c8174f22ec913149f03d04281f104f40ba1818f7f7a37a2559b1754299ef3c05",
+   "use": "dirty snow with footprints, lots and dusting"
+  },
+  "Grass007": {
+   "sha256": "04f1a487e1f0f2c24896e494a3bf6be317c15d781aeae67230cf16175e8e4b91",
+   "use": "weedy grass verges"
+  },
+  "Metal021": {
+   "sha256": "91ec6aa94d93b626a9eaf167d6df27b95b3e02a3e96ee2c51987296211713f38",
+   "use": "rusty metal, poles, gates"
+  },
+  "CorrugatedSteel007A": {
+   "sha256": "c70ff5a3a182ab14a010105bcfbdf26617877ca6985f95ef5c6677d0c3175899",
+   "use": "shop shutters"
+  },
+  "Fence003": {
+   "sha256": "235f74060d50f379ab0154d7130178fff65ceaf6a6f8e5615260d57ec0f3e1f2",
+   "use": "chain-link fence (opacity map)"
+  },
+  "Leather030": {
+   "sha256": "0cdd772843bcaefb15fcec99b49c8d6436ab2f1535f39bf3a00ae65bc1e2aa06",
+   "use": "brown leather jacket"
+  },
+  "Fabric069": {
+   "sha256": "9e7f3a61d6599bbaf7d8f4864ba55d0ff109a0329dfbadc150d4aa791761e34c",
+   "use": "jeans"
+  }
+ }
+}
