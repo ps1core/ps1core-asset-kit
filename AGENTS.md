@@ -8,9 +8,12 @@ The person you work for decides what to make and approves how it looks; show the
 1. Agree on the model list with the person: ids with their collection prefix (`mycoll_...`), a one-line description each,
    and for characters the clips. Then copy `submission-template/` to a working folder and rename `progs/mycoll/`.
 2. Choose the route per model:
-   - **From the 1942 cast** (fastest for people): `python3 tools/fetch_cast.py` once (about 800 MB, cached), then
-     `tools/derive.py SOURCE NEW_ID SUB --clips ... --desc "..."`. `reference/1942-cast.json` lists every source model
-     and its clips. Then repaint the PNGs, drop or reshape surfaces, add clips.
+   - **From the cast** (fastest for people and creatures): `python3 tools/fetch_cast.py` once (the 1942 soldiers and
+     props, about 800 MB, cached), and `python3 tools/fetch_cast.py beyond` for the things from beyond (about 340 MB).
+     Then `tools/derive.py SOURCE NEW_ID SUB --clips ... --desc "..."` (add `--cast beyond` for a beyond model).
+     `reference/1942-cast.json` and `reference/beyond-cast.json` list every source model and its clips. Then repaint
+     the PNGs, drop or reshape surfaces, add clips. The shoggoth and Cthulhu are sets of parts (`shoggoth_a`,
+     `shoggoth_b`, `shoggoth_eyes`, ...) that a scene places together: derive each part you need.
    - **From code**: build meshes with numpy and write them with `tools/md3.py`, as `examples/buoy/build.py` does.
      Good for props: rocks, fences, lamps, doors, pipes, tanks.
    - **From a modelling tool**: the person exports MD3; you check and fix the catalog entry.
@@ -38,5 +41,5 @@ The person you work for decides what to make and approves how it looks; show the
 
 - Don't make likenesses of existing characters or real people, even if a prompt names them; make an original that can
   play the same scene.
-- Don't put the downloaded cast (`cast/`) or derived models in a public repo: they are for ps1core films only.
+- Don't put the downloaded cast (`cast/`, 1942 and beyond) or derived models in a public repo: they are for ps1core films only.
 - Don't change `reference/` or the tools to make a check pass; fix the model.

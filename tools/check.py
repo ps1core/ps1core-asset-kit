@@ -21,10 +21,10 @@ import md3read
 
 REQUIRED = ('path', 'desc', 'idle', 'clips', 'height', 'lift')
 OPTIONAL = ('light', 'internal', 'kind', 'based_on')
-# The clips the existing 1942 soldiers have (reference/1942-cast.json). A character that has them can stand in for a
-# soldier in any scene written for one. The first five are required for any character; the rest are recommended.
-CHAR_REQUIRED = ('idle', 'walk', 'run', 'crouch', 'die')
-CHAR_RECOMMENDED = ('stand', 'crouch_run', 'lie', 'crawl', 'swim', 'flinch', 'die_back', 'run_low', 'crawl_up', 'tend', 'drag', 'breathe')
+# Any character needs idle and walk (the beyond creatures have little more). The recommended ones are the 1942 soldiers'
+# clips (reference/1942-cast.json): a person who has them can stand in for a soldier in any scene written for one.
+CHAR_REQUIRED = ('idle', 'walk')
+CHAR_RECOMMENDED = ('run', 'crouch', 'die', 'stand', 'crouch_run', 'lie', 'crawl', 'swim', 'flinch', 'die_back', 'run_low', 'crawl_up', 'tend', 'drag', 'breathe')
 ID = re.compile(r'^[a-z][a-z0-9_]{1,31}$')
 
 
@@ -57,7 +57,7 @@ def check_model(r, root, coll, mid, e, sources):
     if e['path'] != want: r.err(mid, f'path is {e["path"]!r}, expected {want!r}')
     if not (20 <= len(e['desc']) <= 300): r.warn(mid, f'desc is {len(e["desc"])} characters: one plain sentence, 20 to 300')
     if mid not in sources: r.err(mid, 'not listed in SOURCES.md (who made it, from what, under which licence)')
-    if e.get('based_on'): r.note(mid, f'based on {e["based_on"]} from the 1942 cast: carries the 1942 terms (free films only)')
+    if e.get('based_on'): r.note(mid, f'based on {e["based_on"]} from the cast: carries the 1942 terms (free films only)')
     if e['desc'].startswith('TODO'): r.err(mid, 'desc still says TODO')
     f = root / e['path']
     if not f.is_file(): r.err(mid, f'no file {e["path"]}'); return

@@ -10,11 +10,12 @@ What's in the kit:
 |---|---|
 | `SPEC.md` | what a model must be: format, units, origin, clips, textures, catalog entry, rights |
 | `WISHLIST.md` | what people ask for that the cast cannot play yet |
-| `reference/1942-cast.json` | the existing cast: ids, descriptions, heights, clips with frame counts and speeds (no art) |
+| `reference/1942-cast.json` | the 1942 cast: ids, descriptions, heights, clips (no art) |
+| `reference/beyond-cast.json` | the things from beyond, part of 1942-WEIRD: ghouls, vampires, the tall ones, the shoggoth, Cthulhu |
 | `reference/sets.json` | the two sets: description, bounds, landmarks, in Quake units |
 | `AGENTS.md` | the workflow in steps, for a coding agent (Claude Code, Codex, ...) doing the work |
-| `tools/fetch_cast.py` | downloads the 1942 cast's models (pinned, SHA-256 checked) into `cast/1942/` |
-| `tools/derive.py` | starts a new model from a 1942 soldier or prop: mesh, chosen clips, textures, catalog entry |
+| `tools/fetch_cast.py` | downloads the cast's models (pinned, SHA-256 checked) into `cast/1942/`, or `cast/beyond/` with `beyond` |
+| `tools/derive.py` | starts a new model from a cast model (1942 by default, `--cast beyond`): mesh, chosen clips, textures, catalog entry |
 | `tools/check.py` | checks a submission against the spec |
 | `tools/preview.py` | a contact sheet of one model (four views, every clip, a soldier-height bar), no engine needed |
 | `tools/md3.py`, `tools/tex.py` | an MD3 writer and texture helpers (normal-from-height, tileable noise), for building from code |
@@ -31,17 +32,20 @@ tools/check.py /tmp/buoy                    # 0 errors
 tools/preview.py /tmp/buoy kit_buoy --out buoy.png
 ```
 
-## The 1942 cast download
+## The cast download
 
-`tools/fetch_cast.py` downloads the package ps1core renders the 1942 sets with, so you can base models on its soldiers
-and props. It is pinned in `reference/1942-package.lock.json` (file name, SHA-256, size, URL in ps1core's public asset
-bucket):
+`tools/fetch_cast.py` downloads the packages ps1core renders with, so you can base models on the existing cast. Each is
+pinned in `reference/<package>-package.lock.json` (file name, SHA-256, size, URL in ps1core's public asset bucket):
 
-- About **800 MB** (package `1942-db6471b847b2`, as of 2026-11-07), downloaded once and cached in
-  `~/.cache/ps1core-assets/` (`PS1_ASSET_CACHE` moves it).
+| Command | What | Size (as of 2026-11-07) |
+|---|---|---|
+| `tools/fetch_cast.py` | **1942** (the default): the soldiers and props, package `1942-db6471b847b2` | about 800 MB, about 3,500 files |
+| `tools/fetch_cast.py beyond` | **beyond**, the things from beyond of 1942-WEIRD, package `beyond-31e271c610d8` | about 340 MB, about 770 files |
+
+- Downloaded once and cached in `~/.cache/ps1core-assets/` (`PS1_ASSET_CACHE` moves it).
 - The download is refused if its SHA-256 does not match the lock.
-- Only the models and their textures are unpacked, into `cast/1942/` (ignored by git; about 3,500 files).
-- The pin is a snapshot: when ps1core updates the 1942 cast, this kit keeps this version until its lock is updated.
+- Only the models and their textures are unpacked, into `cast/1942/` or `cast/beyond/` (ignored by git).
+- The pin is a snapshot: when ps1core updates a cast, this kit keeps this version until its lock is updated.
 
 Not needed for models you make from scratch.
 
@@ -64,11 +68,11 @@ Not needed for models you make from scratch.
 Your models become a collection of their own, named after your prefix, hidden while we review it. We render every
 model in the engine, in the sets, in real lighting, and send you the review videos. It may take a round or two of
 changes. When a model is approved we publish your collection and it joins the cast: anyone can then cast it in a film.
-If any of your models is based on the 1942 cast, your collection is for free films only, like the 1942 sets. Your
+If any of your models is based on the cast (1942 or beyond), your collection is for free films only, like the 1942 sets. Your
 credit goes where `SOURCES.md` says.
 
 ## Licence
 
-The kit's code and docs are MIT (`LICENSE`). The 1942 cast you download with `fetch_cast.py` is not part of the kit
-and is not MIT: it and anything based on it are for free films on ps1core, under the site's terms. Your original models
+The kit's code and docs are MIT (`LICENSE`). The cast you download with `fetch_cast.py` (1942 and beyond) is not part
+of the kit and is not MIT: it and anything based on it are for free films on ps1core, under the site's terms. Your original models
 stay yours; how you license them to ps1core is written in `SOURCES.md` for each one (see `SPEC.md`, Rights).

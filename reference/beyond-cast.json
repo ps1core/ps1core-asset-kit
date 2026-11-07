@@ -1,0 +1,884 @@
+{
+ "ch_f": {
+  "desc": "a changed soldier, a woman: a small dead sun for a head, turning rings and tentacles",
+  "height": 81.8,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    13
+   ],
+   "run": [
+    24,
+    36,
+    26
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    10
+   ]
+  }
+ },
+ "ch_m": {
+  "desc": "a changed soldier: where his head was, a small dead sun with turning rings and tentacles",
+  "height": 81.8,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    13
+   ],
+   "run": [
+    24,
+    36,
+    26
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    10
+   ]
+  }
+ },
+ "cthulhu_0": {
+  "desc": "one part of Cthulhu, a vast winged thing with a bearded head of feelers, beyond the sea: cast every cthulhu_* part at one spot, same clip and yaw",
+  "height": 474.1,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    39,
+    5
+   ]
+  }
+ },
+ "cthulhu_1": {
+  "desc": "one part of Cthulhu, a vast winged thing with a bearded head of feelers, beyond the sea: cast every cthulhu_* part at one spot, same clip and yaw",
+  "height": 474.1,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    39,
+    5
+   ]
+  }
+ },
+ "cthulhu_eyes": {
+  "desc": "one part of Cthulhu, a vast winged thing with a bearded head of feelers, beyond the sea: cast every cthulhu_* part at one spot, same clip and yaw",
+  "height": 474.1,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    39,
+    5
+   ]
+  }
+ },
+ "fe_m": {
+  "desc": "a feral ghoul, a shirtless dead man on all fours, very fast",
+  "height": 72.2,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    17,
+    26
+   ],
+   "run": [
+    18,
+    35,
+    46
+   ],
+   "die": [
+    36,
+    59,
+    22
+   ],
+   "die_back": [
+    60,
+    76,
+    22
+   ],
+   "die_head": [
+    77,
+    121,
+    22
+   ],
+   "die_slow": [
+    122,
+    184,
+    18
+   ],
+   "flinch": [
+    185,
+    195,
+    22
+   ],
+   "ref": [
+    196,
+    196,
+    1
+   ],
+   "idle": [
+    197,
+    214,
+    10
+   ]
+  }
+ },
+ "fe_u": {
+  "desc": "a feral ghoul of undetermined sex, shirtless, on all fours, very fast",
+  "height": 72.3,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    17,
+    26
+   ],
+   "run": [
+    18,
+    35,
+    46
+   ],
+   "die": [
+    36,
+    59,
+    22
+   ],
+   "die_back": [
+    60,
+    76,
+    22
+   ],
+   "die_head": [
+    77,
+    121,
+    22
+   ],
+   "die_slow": [
+    122,
+    184,
+    18
+   ],
+   "flinch": [
+    185,
+    195,
+    22
+   ],
+   "ref": [
+    196,
+    196,
+    1
+   ],
+   "idle": [
+    197,
+    214,
+    10
+   ]
+  }
+ },
+ "gh_f": {
+  "desc": "a turned soldier: a dead Black woman in torn feldgrau, long hair, hunched, reaching",
+  "height": 71.9,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    12
+   ],
+   "run": [
+    24,
+    36,
+    24
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    10
+   ]
+  }
+ },
+ "gh_m": {
+  "desc": "a turned soldier: a dead man in a torn olive uniform, hunched, reaching, sunken eyes, a too-wide mouth",
+  "height": 72.3,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    12
+   ],
+   "run": [
+    24,
+    36,
+    24
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    10
+   ]
+  }
+ },
+ "gh_u": {
+  "desc": "a turned soldier of undetermined sex in torn khaki, hunched, reaching",
+  "height": 72.4,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    12
+   ],
+   "run": [
+    24,
+    36,
+    24
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    10
+   ]
+  }
+ },
+ "shoggoth_a": {
+  "desc": "one part of the shoggoth: cast every shoggoth_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_b": {
+  "desc": "one part of the shoggoth: cast every shoggoth_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_eyes": {
+  "desc": "one part of the shoggoth: cast every shoggoth_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_old_a": {
+  "desc": "one part of the old-skinned shoggoth: cast every shoggoth_old_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_old_b": {
+  "desc": "one part of the old-skinned shoggoth: cast every shoggoth_old_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_old_eyes": {
+  "desc": "one part of the old-skinned shoggoth: cast every shoggoth_old_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "shoggoth_tent": {
+  "desc": "one part of the shoggoth: cast every shoggoth_* part at one spot, same clip and yaw",
+  "height": 168.5,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    47,
+    12
+   ],
+   "walk": [
+    0,
+    47,
+    18
+   ]
+  }
+ },
+ "tall_gen": {
+  "desc": "a thing eleven metres tall on four jointed legs, chest held open, a very human face in a high command cap held by hooks on wires",
+  "height": 475.9,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    23,
+    8
+   ],
+   "walk": [
+    24,
+    55,
+    8
+   ]
+  }
+ },
+ "tall_king": {
+  "desc": "a thing eleven metres tall on four jointed legs, chest held open, a very human face in an old crown held by hooks on wires",
+  "height": 475.9,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    23,
+    8
+   ],
+   "walk": [
+    24,
+    55,
+    8
+   ]
+  }
+ },
+ "tall_pope": {
+  "desc": "a thing eleven metres tall on four jointed legs, chest held open, a very human dark-skinned face in a papal tiara held by hooks on wires",
+  "height": 475.9,
+  "lift": 24,
+  "clips": {
+   "idle": [
+    0,
+    23,
+    8
+   ],
+   "walk": [
+    24,
+    55,
+    8
+   ]
+  }
+ },
+ "vn_b": {
+  "desc": "a starved vampire: brown-skinned, bald, long ears and claws, a ragged long black coat",
+  "height": 76.9,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    8
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    7
+   ]
+  }
+ },
+ "vn_f": {
+  "desc": "a starved vampire: a bald dark-skinned woman, long ears and claws, a ragged long black coat",
+  "height": 73.1,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    8
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    7
+   ]
+  }
+ },
+ "vn_m": {
+  "desc": "a starved vampire: rat-faced, pale, thin hair, long ears and claws, a ragged long black coat",
+  "height": 77.0,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    8
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    7
+   ]
+  }
+ },
+ "vo_f": {
+  "desc": "a vampire officer of no army, a woman: greatcoat, belt, peaked cap, tall boots, red eyes",
+  "height": 77.8,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    15
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    5
+   ]
+  }
+ },
+ "vo_m": {
+  "desc": "a vampire officer of no army: greatcoat, belt, peaked cap, tall boots, red eyes",
+  "height": 80.8,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    15
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    5
+   ]
+  }
+ },
+ "vw_u": {
+  "desc": "an old vampire: bald, bloodless, shirtless, undetermined, a bat-like cape stretched between its raised arms",
+  "height": 79.2,
+  "lift": 24,
+  "clips": {
+   "walk": [
+    0,
+    23,
+    10
+   ],
+   "run": [
+    24,
+    36,
+    34
+   ],
+   "die": [
+    37,
+    60,
+    22
+   ],
+   "die_back": [
+    61,
+    77,
+    22
+   ],
+   "die_head": [
+    78,
+    122,
+    22
+   ],
+   "die_slow": [
+    123,
+    185,
+    18
+   ],
+   "flinch": [
+    186,
+    196,
+    22
+   ],
+   "ref": [
+    197,
+    197,
+    1
+   ],
+   "idle": [
+    198,
+    215,
+    7
+   ]
+  }
+ }
+}

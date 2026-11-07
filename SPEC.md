@@ -26,10 +26,10 @@ anything in the cast can be cast in any set. Run `tools/check.py` on your submis
 - A clip is a contiguous range of frames with its own speed: `"walk": [first, last, fps]` in the catalog.
 - Frames are named after their clip, cut to 11 characters, plus the index from 0: `walk0 … walk23`, `steady_ches0`.
 - **must** Every model has an `idle` clip. A prop can be a single `idle` frame.
-- **must** A character (anything with a `walk`) has `idle`, `walk`, `run`, `crouch`, `die`.
-- Recommended for characters, because scenes written for the soldiers use them: `stand`, `crouch_run`, `lie`, `crawl`,
+- **must** A character (anything with a `walk`) has `idle` and `walk`.
+- Recommended for people, because scenes written for the soldiers use them: `run`, `crouch`, `die`, `stand`, `crouch_run`, `lie`, `crawl`,
   `swim`, `flinch`, `die_back`, `run_low`, `crawl_up`, `tend`, `drag`, `breathe`. The full soldier set, with frame
-  counts and speeds, is in `reference/1942-cast.json`. Reusing a range at another speed (`run_slow`) is fine.
+  counts and speeds, is in `reference/1942-cast.json`; the beyond creatures' clips are in `reference/beyond-cast.json`. Reusing a range at another speed (`run_slow`) is fine.
 - New clips are welcome (see WISHLIST.md); name them in lowercase, `_` between words, 15 characters at most.
 
 What the soldiers' clips look like (feet at z −24, measured):
@@ -87,8 +87,8 @@ Two kinds of model, and `SOURCES.md` says which each one is:
 
 - **Original**: your own work, or under a licence that lets us use and redistribute it (CC0, CC-BY with the credit
   written in SOURCES.md).
-- **Based on the 1942 cast** (`tools/fetch_cast.py`, then `tools/derive.py`): a soldier or prop reshaped, repainted or
-  given new clips. Welcome: it is often the quickest way to a new character. It carries the site's 1942 terms (free films
+- **Based on the cast** (`tools/fetch_cast.py [beyond]`, then `tools/derive.py`): a 1942 soldier or prop, or a beyond
+  creature (ghouls, vampires, the tall ones, the shoggoth, Cthulhu), reshaped, repainted or given new clips. Welcome: it is often the quickest way to a new character. It carries the site's 1942 terms (free films
   only, like the 1942 sets) and its catalog entry keeps `"based_on"`.
 
 Either way: nothing ripped or converted from another game, film or commercial model pack, and no likeness of an

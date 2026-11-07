@@ -3,17 +3,18 @@
 # requires-python = ">=3.10"
 # dependencies = ["numpy==2.3.1", "pillow==11.3.0"]
 # ///
-"""Start a new model from one in the 1942 cast: copy its mesh, the clips you choose and its textures into your
-submission under a new id, ready to repaint, reshape or extend with new clips. Run tools/fetch_cast.py first.
+"""Start a new model from one in the cast (1942, or beyond with --cast beyond): copy its mesh, the clips you choose and
+its textures into your submission under a new id, ready to repaint, reshape or extend with new clips. Run
+tools/fetch_cast.py (and tools/fetch_cast.py beyond) first.
 
-  tools/derive.py SOURCE_ID NEW_ID SUBMISSION_DIR [--clips idle,walk,swim] [--desc "one sentence"] [--collection mycoll]
+  tools/derive.py SOURCE_ID NEW_ID SUBMISSION_DIR [--cast 1942|beyond] [--clips idle,walk,swim] [--desc "one sentence"] [--collection mycoll]
 
   tools/derive.py bf_ger_rifleman mycoll_diver sub/ --clips idle,walk,run,crouch,die,swim,crawl,crawl_up \\
       --desc "a diver in a dark wetsuit and harness, a small radio at the collar"
 
 What it writes: progs/<collection>/<NEW_ID>.md3 and its PNGs (shaders renamed to <NEW_ID>_<material>), a catalog
 entry in models.json with "based_on", and a row in SOURCES.md. The result carries the site's 1942 terms (free films
-only; SPEC.md, Rights). Decal anchor surfaces (shader nodraw) are dropped. Next: repaint the PNGs, edit the vertices
+only; SPEC.md, Rights), whichever cast it comes from. Decal anchor surfaces (shader nodraw) are dropped. Next: repaint the PNGs, edit the vertices
 (tools/md3read.py reads, tools/md3.py writes), add clips, then tools/check.py.
 """
 import argparse, json, re, shutil, sys
@@ -25,18 +26,19 @@ KIT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(KIT / 'tools'))
 import md3, md3read
 
-CAST = KIT / 'cast/1942'
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('source'); ap.add_argument('new_id'); ap.add_argument('dir')
+    ap.add_argument('--cast', default='1942', choices=('1942', 'beyond'))
     ap.add_argument('--clips'); ap.add_argument('--desc'); ap.add_argument('--collection')
     a = ap.parse_args()
-    cast = json.loads((KIT / 'reference/1942-cast.json').read_text())
-    if a.source not in cast: sys.exit(f'{a.source}: not in reference/1942-cast.json')
+    cast = json.loads((KIT / f'reference/{a.cast}-cast.json').read_text())
+    if a.source not in cast: sys.exit(f'{a.source}: not in reference/{a.cast}-cast.json' + ('' if a.cast == 'beyond' else ' (a beyond model? add --cast beyond)'))
+    CAST = KIT / 'cast' / a.cast
     src_md3 = CAST / f'{a.source}.md3'
-    if not src_md3.is_file(): sys.exit(f'{src_md3}: missing; run tools/fetch_cast.py')
+    if not src_md3.is_file(): sys.exit(f'{src_md3}: missing; run tools/fetch_cast.py' + (' beyond' if a.cast == 'beyond' else ''))
     root = Path(a.dir); root.mkdir(parents=True, exist_ok=True)
     coll = a.collection
     if not coll:
@@ -91,7 +93,7 @@ def main():
         src_md.write_text('# Sources\n\n| Model | Author | Made from | Licence |\n|---|---|---|---|\n')
     if f'`{a.new_id}`' not in src_md.read_text():
         with open(src_md, 'a') as f:
-            f.write(f'| `{a.new_id}` | TODO: your name | based on `{a.source}` from the 1942 cast | 1942 terms: free films only |\n')
+            f.write(f'| `{a.new_id}` | TODO: your name | based on `{a.source}` from the {a.cast} cast | 1942 terms: free films only |\n')
     print(f'{a.new_id}: {info["frames"]} frames, {info["verts"]} vertices, {len(surfs)} surfaces, '
           f'{len(copied)} textures, clips {", ".join(new_clips)} -> {out}')
 

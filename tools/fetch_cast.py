@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Download the 1942 cast's models (the package the site renders with), check its SHA-256, and unpack the models into
-cast/1942/ (ignored by git). Standard library only. About 800 MB, cached in ~/.cache/ps1core-assets.
+"""Download a cast package (the one the site renders with), check its SHA-256, and unpack its models into
+cast/<package>/ (ignored by git). Standard library only. Cached in ~/.cache/ps1core-assets.
 
-  tools/fetch_cast.py
+  tools/fetch_cast.py            the 1942 cast: soldiers and props (about 800 MB)
+  tools/fetch_cast.py beyond     the things from beyond of 1942-WEIRD: ghouls, vampires, the tall ones, shoggoth, Cthulhu (about 340 MB)
 
 These models carry the site's 1942 terms (free films only): read SPEC.md, Rights, before you base anything on them.
 """
@@ -10,8 +11,7 @@ import hashlib, json, os, shutil, sys, tarfile, urllib.request
 from pathlib import Path
 
 KIT = Path(__file__).resolve().parents[1]
-LOCK = KIT / 'reference/1942-package.lock.json'
-OUT = KIT / 'cast/1942'
+PACKAGES = ('1942', 'beyond')
 CACHE = Path(os.environ.get('PS1_ASSET_CACHE', Path.home() / '.cache/ps1core-assets'))
 
 
@@ -23,7 +23,10 @@ def sha256(p):
 
 
 def main():
-    lock = json.loads(LOCK.read_text())
+    which = sys.argv[1] if len(sys.argv) > 1 else '1942'
+    if which not in PACKAGES: sys.exit(f'unknown package {which!r}: one of {", ".join(PACKAGES)}')
+    lock = json.loads((KIT / f'reference/{which}-package.lock.json').read_text())
+    OUT = KIT / 'cast' / which
     CACHE.mkdir(parents=True, exist_ok=True)
     pkg = CACHE / lock['name']
     if not pkg.exists() or sha256(pkg) != lock['sha256']:
@@ -39,7 +42,7 @@ def main():
         for m in t.getmembers():
             p = Path(m.name)
             if m.name.startswith('/') or '..' in p.parts or not (m.isfile() or m.isdir()): sys.exit(f'bad path in package: {m.name}')
-            if m.isfile() and p.parts[:2] == ('progs', '1942'):
+            if m.isfile() and p.parts[:2] == ('progs', which):
                 dst = OUT / p.name
                 with t.extractfile(m) as src, open(dst, 'wb') as f: shutil.copyfileobj(src, f)
                 n += 1
