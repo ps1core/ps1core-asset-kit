@@ -83,7 +83,14 @@ What the soldiers' clips look like (feet at z −24, measured):
 
 ## Rights (must)
 
-Original work only: yours, or under a licence that lets us use and redistribute it (CC0, CC-BY with the credit written
-in SOURCES.md). Nothing ripped or converted from a game, film or another commercial model pack, and no likeness of an
+Two kinds of model, and `SOURCES.md` says which each one is:
+
+- **Original**: your own work, or under a licence that lets us use and redistribute it (CC0, CC-BY with the credit
+  written in SOURCES.md).
+- **Based on the 1942 cast** (`tools/fetch_cast.py`, then `tools/derive.py`): a soldier or prop reshaped, repainted or
+  given new clips. Welcome: it is often the quickest way to a new character. It carries the site's 1942 terms (free films
+  only, like the 1942 sets) and its catalog entry keeps `"based_on"`.
+
+Either way: nothing ripped or converted from another game, film or commercial model pack, and no likeness of an
 existing character or real person, even when a prompt asks for one by name (see WISHLIST.md). Every model is listed in
-`SOURCES.md`. The models already in the cast are not part of this kit and cannot be used as a base.
+`SOURCES.md`. Everything is subject to the site's terms (ps1core.com/terms).

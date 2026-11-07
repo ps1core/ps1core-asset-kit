@@ -1,0 +1,13 @@
+{
+ "package": "1942",
+ "name": "1942-db6471b847b2.tar.gz",
+ "sha256": "db6471b847b286819e19700a3384dd0303abafe685cea6e1e09ea5e18e2486c2",
+ "bytes": 796612266,
+ "dirs": [
+  "progs/1942",
+  "textures",
+  "gfx/env",
+  "scripts"
+ ],
+ "url": "https://ps1core-assets.fra1.digitaloceanspaces.com/assets/1942/1942-db6471b847b2.tar.gz"
+}

@@ -14,6 +14,8 @@ this kind of scene, with no recognisable costume, face or gear from that game (o
 
 **Character: an infiltrator** (original design; modern or WWII-era both work)
 - A diver/infiltrator in a dark wetsuit or close-fitting suit, harness and pouches, a small radio. 70–75 units tall.
+- Quickest route: derive from a soldier (`tools/derive.py bf_ger_rifleman ...`), drop the helmet and rifle surfaces,
+  repaint as a wetsuit, and add the clips below by editing frames.
 - Every required and recommended clip in SPEC.md, plus these new ones:
 
 | clip | what it shows |

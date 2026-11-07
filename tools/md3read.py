@@ -19,7 +19,10 @@ def read(path):
         tris = np.frombuffer(b, '<i4', T * 3, o + ofs_tris).reshape(T, 3)
         uv = np.frombuffer(b, '<f4', V * 2, o + ofs_st).reshape(V, 2)
         rec = np.frombuffer(b, '<i2', sF * V * 4, o + ofs_xyz).reshape(sF, V, 4)
+        enc = rec[..., 3].view('<u2').astype(int)
+        lat, lng = (enc >> 8 & 255) * 2 * np.pi / 256, (enc & 255) * 2 * np.pi / 256
+        normals = np.stack([np.cos(lat) * np.sin(lng), np.sin(lat) * np.sin(lng), np.cos(lng)], -1)
         surfaces.append(dict(name=sname.split(b'\0')[0].decode('latin-1'), shaders=shaders, frames=sF,
-                             verts=rec[..., :3].astype(float) / 64.0, tris=tris, uv=uv))
+                             verts=rec[..., :3].astype(float) / 64.0, normals=normals, tris=tris, uv=uv))
         o += ofs_end
     return dict(name=name.split(b'\0')[0].decode('latin-1'), frames=frames, surfaces=surfaces, bytes=len(b), eof_ok=ofs_eof == len(b))
