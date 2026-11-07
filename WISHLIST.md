@@ -18,7 +18,7 @@ this kind of scene, with no recognisable costume, face or gear from that game (o
 
 | clip | what it shows |
 |---|---|
-| `swim_under` | swimming underwater, body horizontal and fully submerged, a slow kick, arms along the body or stroking |
+| `swim_under` | a diver's stroke: body flat and streamlined, slow fin kick, arms along the body (the scene already places `swim` underwater, but it is a head-up surface stroke) |
 | `tread` | treading water, head and shoulders up |
 | `climb_out` | hands on a ledge, pulls up out of water onto the rocks, ends on one knee (in place; ends with the feet at z −24) |
 | `sneak` | slow crouched walk, weight low, looking ahead |
@@ -37,6 +37,6 @@ this kind of scene, with no recognisable costume, face or gear from that game (o
 
 ## Other things the cast is missing
 
-- An underwater swimmer is the biggest one: nothing in the cast can swim below the surface.
+- A diver's underwater stroke for any character: scenes already put `swim` below the surface (and film it from under the water), but it is a head-up surface stroke.
 - A seated pose and a talking clip for any character (radio, briefing, a scene at a table).
 - Night lamps that people carry: a torch, a lantern.

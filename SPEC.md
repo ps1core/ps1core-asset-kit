@@ -40,7 +40,7 @@ What the soldiers' clips look like (feet at z −24, measured):
 | walk / run | 24 @ 18 / 13 @ 34 | 49 / 44 | in place |
 | crouch | 18 @ 10 | 27 | on one knee |
 | lie, crawl | 17 @ 8, 18 @ 16 | −1 / 5 | prone |
-| swim | 22 @ 18 | 16 | surface swim, head up (there is no underwater swim yet) |
+| swim | 22 @ 18 | 16 | a head-up stroke; scenes also play it below the surface (the depth is the scene's choice) |
 | die | 24 @ 22 | 46 | falls backward along −X |
 
 ## Textures
