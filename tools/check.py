@@ -56,7 +56,7 @@ def check_model(r, root, coll, mid, e, sources):
     want = f'progs/{coll}/{mid}.md3'
     if e['path'] != want: r.err(mid, f'path is {e["path"]!r}, expected {want!r}')
     if not (20 <= len(e['desc']) <= 300): r.warn(mid, f'desc is {len(e["desc"])} characters: one plain sentence, 20 to 300')
-    if mid not in sources: r.err(mid, 'not listed in SOURCES.md (who made it, from what, under which licence)')
+    if mid not in sources: r.err(mid, 'not listed in SOURCES.md (who made it, from what, under which license)')
     if e.get('based_on'): r.note(mid, f'based on {e["based_on"]} from the cast: carries the 1942 terms (free films only)')
     if e['desc'].startswith('TODO'): r.err(mid, 'desc still says TODO')
     f = root / e['path']

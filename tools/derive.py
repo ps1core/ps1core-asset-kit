@@ -90,7 +90,7 @@ def main():
     cat_path.write_text(json.dumps(cat, indent=1) + '\n')
     src_md = root / 'SOURCES.md'
     if not src_md.is_file():
-        src_md.write_text('# Sources\n\n| Model | Author | Made from | Licence |\n|---|---|---|---|\n')
+        src_md.write_text('# Sources\n\n| Model | Author | Made from | License |\n|---|---|---|---|\n')
     if f'`{a.new_id}`' not in src_md.read_text():
         with open(src_md, 'a') as f:
             f.write(f'| `{a.new_id}` | TODO: your name | based on `{a.source}` from the {a.cast} cast | 1942 terms: free films only |\n')

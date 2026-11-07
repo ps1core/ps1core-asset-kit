@@ -17,9 +17,10 @@ What's in the kit:
 | `tools/fetch_cast.py` | downloads the cast's models (pinned, SHA-256 checked) into `cast/1942/`, or `cast/beyond/` with `beyond` |
 | `tools/derive.py` | starts a new model from a cast model (1942 by default, `--cast beyond`): mesh, chosen clips, textures, catalog entry |
 | `tools/check.py` | checks a submission against the spec |
-| `tools/preview.py` | a contact sheet of one model (four views, every clip, a soldier-height bar), no engine needed |
+| `tools/preview.py` | a contact sheet of one model (four views, every clip, a soldier-height bar) with its normal, gloss and glow maps; software only, no engine or GPU (see below) |
 | `tools/md3.py`, `tools/tex.py` | an MD3 writer and texture helpers (normal-from-height, tileable noise), for building from code |
 | `examples/buoy/` | a complete, valid submission built from code |
+| `tests/run.sh` | end-to-end test of the tools (see below) |
 | `submission-template/` | the folder you send back |
 
 ## Setup
@@ -63,6 +64,29 @@ Not needed for models you make from scratch.
    is it the right size next to the soldier bar, facing the right way, and do the clips loop?
 6. Send the folder (zipped) to whoever gave you this kit.
 
+## The preview is not the film look
+
+`tools/preview.py` is a quick software render (numpy, one sun, orthographic) for checking scale, facing, UVs, clips,
+missing textures (magenta), and normal, gloss and glow maps (`--flat` turns the maps off to compare). ps1core's
+renderer looks different: its own shading, realtime lights and shadows, offset mapping from the `_norm` alpha (most of
+the soldiers' relief is there, so their normal maps look nearly flat in the preview), bloom on glow, fog, water, night
+and each set's light. Today the real look comes from the in-engine review render we send back with every submission. An
+in-engine preview through the ps1core API, which you or your agent could call yourselves, is planned but not available yet.
+
+Big models are slow: a soldier's sheet takes a few seconds, a 58,000-vertex shoggoth part a minute or two. Use
+`--clips idle` while you iterate.
+
+## Testing the kit
+
+```sh
+tests/run.sh              # about 30 s once the cast is cached (first run downloads it: about 1.1 GB)
+tests/run.sh --full       # also the shoggoth part, a big model: about 2 minutes more
+tests/run.sh --out DIR    # keep the test submission and the preview sheets to look at
+```
+
+It builds the buoy, derives a 1942 soldier and a beyond ghoul, checks them, draws their previews with and without
+maps, and makes sure `check.py` rejects a broken entry. Run it after changing anything in `tools/`.
+
 ## What happens next
 
 Your models become a collection of their own, named after your prefix, hidden while we review it. We render every
@@ -71,7 +95,7 @@ changes. When a model is approved we publish your collection and it joins the ca
 If any of your models is based on the cast (1942 or beyond), your collection is for free films only, like the 1942 sets. Your
 credit goes where `SOURCES.md` says.
 
-## Licence
+## License
 
 The kit's code and docs are MIT (`LICENSE`). The cast you download with `fetch_cast.py` (1942 and beyond) is not part
 of the kit and is not MIT: it and anything based on it are for free films on ps1core, under the site's terms. Your original models

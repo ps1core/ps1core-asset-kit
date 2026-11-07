@@ -19,8 +19,10 @@ The person you work for decides what to make and approves how it looks; show the
    - **From a modelling tool**: the person exports MD3; you check and fix the catalog entry.
 3. `tools/check.py SUB` until it reports 0 errors. Read the warnings too.
 4. `tools/preview.py SUB MODEL_ID --out FILE.png`, then look at the image yourself: size next to the soldier bar, feet on
-   the ground line, facing +X (left in the side view), no magenta (a missing texture), clips that loop. Show it to the person.
-5. Fill in `SOURCES.md` (author, what it's made from, licence) and the `desc` of every model (no TODO left).
+   the ground line, facing +X (left in the side view), no magenta (a missing texture), clips that loop, glow only where
+   it should be (`--flat` turns the maps off to compare). Show it to the person. It is a software render, not the film
+   look (README, "The preview is not the film look"): don't promise the person how it will look in a film from it.
+5. Fill in `SOURCES.md` (author, what it's made from, license) and the `desc` of every model (no TODO left).
 6. Zip the submission folder for the person to send.
 
 ## Working with the formats
@@ -42,4 +44,5 @@ The person you work for decides what to make and approves how it looks; show the
 - Don't make likenesses of existing characters or real people, even if a prompt names them; make an original that can
   play the same scene.
 - Don't put the downloaded cast (`cast/`, 1942 and beyond) or derived models in a public repo: they are for ps1core films only.
-- Don't change `reference/` or the tools to make a check pass; fix the model.
+- Don't change `reference/` or the tools to make a check pass; fix the model. If the person asks you to improve a
+  tool, run `tests/run.sh` (and `--full` when it touches preview speed or big models) before handing it back.

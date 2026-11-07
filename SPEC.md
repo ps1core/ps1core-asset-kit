@@ -85,7 +85,7 @@ What the soldiers' clips look like (feet at z −24, measured):
 
 Two kinds of model, and `SOURCES.md` says which each one is:
 
-- **Original**: your own work, or under a licence that lets us use and redistribute it (CC0, CC-BY with the credit
+- **Original**: your own work, or under a license that lets us use and redistribute it (CC0, CC-BY with the credit
   written in SOURCES.md).
 - **Based on the cast** (`tools/fetch_cast.py [beyond]`, then `tools/derive.py`): a 1942 soldier or prop, or a beyond
   creature (ghouls, vampires, the tall ones, the shoggoth, Cthulhu), reshaped, repainted or given new clips. Welcome: it is often the quickest way to a new character. It carries the site's 1942 terms (free films

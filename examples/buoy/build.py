@@ -81,7 +81,7 @@ def main():
                          idle='idle', clips=dict(idle=[0, F - 1, 8]), height=68, lift=LIFT,
                          light=dict(radius=90, intensity=1.2, offset=[0, 0, 40], tint=[1.0, 0.75, 0.4]))}
     (out / 'models.json').write_text(json.dumps(catalog, indent=1) + '\n')
-    (out / 'SOURCES.md').write_text('# Sources\n\n| Model | Author | Made from | Licence |\n|---|---|---|---|\n'
+    (out / 'SOURCES.md').write_text('# Sources\n\n| Model | Author | Made from | License |\n|---|---|---|---|\n'
                                     '| `kit_buoy` | ps1core | procedural, examples/buoy/build.py; no outside data | same as this kit |\n')
     print(out)
 
