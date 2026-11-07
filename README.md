@@ -31,6 +31,20 @@ tools/check.py /tmp/buoy                    # 0 errors
 tools/preview.py /tmp/buoy kit_buoy --out buoy.png
 ```
 
+## The 1942 cast download
+
+`tools/fetch_cast.py` downloads the package ps1core renders the 1942 sets with, so you can base models on its soldiers
+and props. It is pinned in `reference/1942-package.lock.json` (file name, SHA-256, size, URL in ps1core's public asset
+bucket):
+
+- About **800 MB** (package `1942-db6471b847b2`, as of 2026-11-07), downloaded once and cached in
+  `~/.cache/ps1core-assets/` (`PS1_ASSET_CACHE` moves it).
+- The download is refused if its SHA-256 does not match the lock.
+- Only the models and their textures are unpacked, into `cast/1942/` (ignored by git; about 3,500 files).
+- The pin is a snapshot: when ps1core updates the 1942 cast, this kit keeps this version until its lock is updated.
+
+Not needed for models you make from scratch.
+
 ## Making a model
 
 1. Pick something from `WISHLIST.md` (or propose your own) and tell us, so nobody else makes it too.
