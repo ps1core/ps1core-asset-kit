@@ -1,71 +1,257 @@
 {
- "source": "ambientCG (https://ambientcg.com), 1K JPG sets",
+ "source": "ambientCG (https://ambientcg.com), 1K JPG sets: https://ambientcg.com/get?file=<id>_1K-JPG.zip",
  "license": "CC0 1.0 Universal (public domain dedication): https://docs.ambientcg.com/license/ - commercial use, modification and redistribution allowed, no attribution required (credited anyway)",
- "note": "Materials vetted by ps1core (pinned by SHA-256 of the 1K JPG zip, fetched 2026-10-27, used in ps1core sets). Others: tools/cc0_material.py --new.",
+ "note": "ps1core's shared CC0 material library: every material vetted for use in any set or asset (pinned by the SHA-256 of the 1K JPG zip; swatch looked at for logos or text). engines/ps1/assets/cc0/manifest.json lists the subset PSX workers download and must agree with this file (assets/cc0/test_library.py). The asset kit copies it to reference/cc0.lock.json.",
  "materials": {
   "Bricks097": {
    "sha256": "97b5df360161e48bcfed609aef361e8115b680ddc0aea4ad9321d4b00e222ad0",
-   "use": "damaged brown brick walls"
+   "use": "hilly-silence: damaged brown brick walls",
+   "added": "2026-10-27"
   },
   "Bricks082A": {
    "sha256": "ed11c95962a77ec9d9817f2c09a7a698cc640f7953f1e9576783c3a120030cd6",
-   "use": "dark brown-red brick walls"
+   "use": "hilly-silence: dark brown-red brick walls",
+   "added": "2026-10-27"
   },
   "Bricks075B": {
    "sha256": "d3ca2f8541b94626174829b82b3afba7d102d0a905f28fa084b633a10a827052",
-   "use": "dirty mossy old brick"
+   "use": "hilly-silence: dirty mossy old brick",
+   "added": "2026-10-27"
   },
   "PaintedPlaster006": {
    "sha256": "fd622afe5f601f3f31eb5c1ab1484dba99b698b857d70b7820a31d7275f74ded",
-   "use": "broken painted plaster facades"
+   "use": "hilly-silence: broken painted plaster facades",
+   "added": "2026-10-27"
   },
   "PaintedPlaster015": {
    "sha256": "792b97898cd4f583059de5eafd62293a11a44834ec9b771bf1a515d98c464d03",
-   "use": "broken painted plaster over brick"
+   "use": "hilly-silence: broken painted plaster over brick",
+   "added": "2026-10-27"
   },
   "Concrete036": {
    "sha256": "fc46d520135bb9c8aec364ea2694a4794facd58bee1c124b3f64f119a9b74603",
-   "use": "dark old concrete, curbs, block ends"
+   "use": "hilly-silence: dark old concrete, curbs, block ends",
+   "added": "2026-10-27"
   },
   "WoodSiding008": {
    "sha256": "d8bd0c00724eadc5eba0f738b382500d154ed67ba240f7567f6df74887e790b4",
-   "use": "dark mossy wood siding houses"
+   "use": "hilly-silence: dark mossy wood siding houses",
+   "added": "2026-10-27"
   },
   "Road013A": {
    "sha256": "5cb974b0adf4a7a793308c34641fffb99bee1befcc2629799406da5af3bb08d3",
-   "use": "cracked asphalt road"
+   "use": "hilly-silence: cracked asphalt road",
+   "added": "2026-10-27"
   },
   "Concrete031": {
    "sha256": "3068e551435d3cdae3942017799d8871b940c88ebfaf5c2b87376972ae448fd6",
-   "use": "mouldy concrete sidewalk tiles"
+   "use": "hilly-silence: mouldy concrete sidewalk tiles",
+   "added": "2026-10-27"
   },
   "Snow013": {
    "sha256": "c8174f22ec913149f03d04281f104f40ba1818f7f7a37a2559b1754299ef3c05",
-   "use": "dirty snow with footprints, lots and dusting"
+   "use": "hilly-silence: dirty snow with footprints, lots and dusting",
+   "added": "2026-10-27"
   },
   "Grass007": {
    "sha256": "04f1a487e1f0f2c24896e494a3bf6be317c15d781aeae67230cf16175e8e4b91",
-   "use": "weedy grass verges"
+   "use": "hilly-silence: weedy grass verges",
+   "added": "2026-10-27"
   },
   "Metal021": {
    "sha256": "91ec6aa94d93b626a9eaf167d6df27b95b3e02a3e96ee2c51987296211713f38",
-   "use": "rusty metal, poles, gates"
+   "use": "hilly-silence: rusty metal, poles, gates",
+   "added": "2026-10-27"
   },
   "CorrugatedSteel007A": {
    "sha256": "c70ff5a3a182ab14a010105bcfbdf26617877ca6985f95ef5c6677d0c3175899",
-   "use": "shop shutters"
+   "use": "hilly-silence: shop shutters",
+   "added": "2026-10-27"
   },
   "Fence003": {
    "sha256": "235f74060d50f379ab0154d7130178fff65ceaf6a6f8e5615260d57ec0f3e1f2",
-   "use": "chain-link fence (opacity map)"
+   "use": "hilly-silence: chain-link fence (opacity map)",
+   "added": "2026-10-27"
   },
   "Leather030": {
    "sha256": "0cdd772843bcaefb15fcec99b49c8d6436ab2f1535f39bf3a00ae65bc1e2aa06",
-   "use": "brown leather jacket"
+   "use": "wanderer: brown leather jacket",
+   "added": "2026-10-27"
   },
   "Fabric069": {
    "sha256": "9e7f3a61d6599bbaf7d8f4864ba55d0ff109a0329dfbadc150d4aa791761e34c",
-   "use": "jeans"
+   "use": "wanderer: jeans",
+   "added": "2026-10-27"
+  },
+  "Rock058": {
+   "sha256": "4d47ea9579507e4a410d87a78037d0b9c1fb5ecb6cbeba073f5ea0e13b95aa22",
+   "use": "coast: grey cliff rock",
+   "added": "2026-11-07"
+  },
+  "Rock035": {
+   "sha256": "c5e4dbd7d5555734498834c1e09b799ef3d1f00c61fe08c0d953b93a8fb1bb95",
+   "use": "coast: black cave and cliff rock",
+   "added": "2026-11-07"
+  },
+  "Rock020": {
+   "sha256": "6f7422bb4a8a364dd222646734e20c71e055d9210dae63df6c325cc200482a99",
+   "use": "coast: flat wet grey rock, a ledge to climb onto",
+   "added": "2026-11-07"
+  },
+  "Ground054": {
+   "sha256": "b325ec2f167dce95a0fabc61a2104641288cf20915419578c3efdb46200c563e",
+   "use": "coast: beach sand and mud",
+   "added": "2026-11-07"
+  },
+  "Ground093C": {
+   "sha256": "5f1a1ec87a6d51e7a0391928a6ee9bb862b7e41524c36e0964eaa15c83630dd2",
+   "use": "coast: coastal sand and debris",
+   "added": "2026-11-07"
+  },
+  "Gravel023": {
+   "sha256": "a00e7fd6246db4ae228473aac14f1bc427bd93f228ebe347a5d6390dd838b0a8",
+   "use": "ground: light gravel",
+   "added": "2026-11-07"
+  },
+  "Ground050": {
+   "sha256": "a89b27169bd755cb4fec24d6fe48f2ec2ebb14e3057aa10fcd95028c017b9985",
+   "use": "ground: mud with a puddle",
+   "added": "2026-11-07"
+  },
+  "Asphalt025C": {
+   "sha256": "5a21213be4892b152c544ac20d2ee376fd6d332257ab4572920a459b9c4042e0",
+   "use": "town: wet dark asphalt in the rain",
+   "added": "2026-11-07"
+  },
+  "Concrete042C": {
+   "sha256": "d97dcae18c7d0cdc42d1d794bcf635f928fdb7ffdbfcab90820dbcd3578e8780",
+   "use": "facility: damaged concrete, rusty rebar mesh",
+   "added": "2026-11-07"
+  },
+  "Concrete046": {
+   "sha256": "72bf4321acbb39ddbc3b786f5996813b2a3cede12efefb47955e97ea9668985b",
+   "use": "facility: plain grey concrete",
+   "added": "2026-11-07"
+  },
+  "Metal063": {
+   "sha256": "cc0a7f83d4bfd6c5d38638d17a0c214a004ccd295b8c554c959537bc278167ed",
+   "use": "facility: aged dark steel",
+   "added": "2026-11-07"
+  },
+  "Metal041B": {
+   "sha256": "787bd97e7adfdc9cbf2f393cbeac9464759642194e5b4f6d4c408a85ee9ee3ab",
+   "use": "facility: rusted iron",
+   "added": "2026-11-07"
+  },
+  "MetalWalkway014": {
+   "sha256": "541003d1848d32928158f7b920ffda04c8205f5782a508f0563200bd3fda7db3",
+   "use": "facility: rusty metal walkway",
+   "added": "2026-11-07"
+  },
+  "DiamondPlate008C": {
+   "sha256": "1e0e3f7fa2350fdb69969e74f3fb8f851d2770778d1ab9e6f7011b586162e159",
+   "use": "facility: diamond-plate tread steel",
+   "added": "2026-11-07"
+  },
+  "CorrugatedSteel009": {
+   "sha256": "fa917cba8bbf4ceb645cf27e4c1a4a17621d3b1ad44a4125997cdd05662711fb",
+   "use": "facility: dark industrial corrugated steel",
+   "added": "2026-11-07"
+  },
+  "Tiles140": {
+   "sha256": "6eb73dd78bcfff358f09720242fed543edd9fc6ea3a6c0d4f46ecef59fa08308",
+   "use": "facility: corroded dark industrial tiles",
+   "added": "2026-11-07"
+  },
+  "Rubber004": {
+   "sha256": "d8933e73c3b983892209bb143ca4bc13a48e4d55720ab12f6e6a303c96c84a31",
+   "use": "gear: black rubber (a wetsuit)",
+   "added": "2026-11-07"
+  },
+  "Fabric031": {
+   "sha256": "66a14ac501a3c238be3fca856415fc02a9e6e061478632fb597d14df8d003b92",
+   "use": "clothes: grey wool weave",
+   "added": "2026-11-07"
+  },
+  "Fabric061": {
+   "sha256": "537a84d3a91d50bc907d2e86f4f024041643eb6a04c10b115cdf308f29508eb2",
+   "use": "clothes: rough cloth",
+   "added": "2026-11-07"
+  },
+  "Leather026": {
+   "sha256": "6af2f446f9855c641da2a072f128d30965431ffae3306d22d75dbfff99c04646",
+   "use": "clothes: smooth black leather",
+   "added": "2026-11-07"
+  },
+  "Plastic012A": {
+   "sha256": "46503e4196d5ca0af96b15570ce2a89c3df3c450eeae642976f9446b9a43001d",
+   "use": "gear: black plastic",
+   "added": "2026-11-07"
+  },
+  "PavingStones046": {
+   "sha256": "a479a3e8db7eea8f3e931850ccd41c0f31b1b6fceee9cbd4ac519c8fef4c0024",
+   "use": "town: grey medieval cobblestones",
+   "added": "2026-11-07"
+  },
+  "PavingStones138": {
+   "sha256": "5e2aee8fde52a9f2799ff2f5036522d2d25673d235e1c42f86144bc5a8d83fdd",
+   "use": "town: mossy old paving",
+   "added": "2026-11-07"
+  },
+  "Planks037A": {
+   "sha256": "df255df16475bad251f194eb173017c46d5354d572348d435808717c478cf144",
+   "use": "wood: plank floor, benches, docks",
+   "added": "2026-11-07"
+  },
+  "PaintedWood005": {
+   "sha256": "c36e9f909ec75e8661659a3d86a33b76ac8d99511e41f6a81b3127e1b4abb1ed",
+   "use": "wood: old rough painted wood",
+   "added": "2026-11-07"
+  },
+  "Bark014": {
+   "sha256": "c73728c32d6f0f3610f9db204448eff7e3acc74da0f8c1878920419772397670",
+   "use": "nature: fir bark",
+   "added": "2026-11-07"
+  },
+  "Moss002": {
+   "sha256": "727d4e3134f604837c2e11aa3bf12417a022d3c668a6d7339efa572fdbb056bb",
+   "use": "nature: green moss",
+   "added": "2026-11-07"
+  },
+  "Bricks094": {
+   "sha256": "e64dacbaaf7820340807e1dd1e6d7e24e9ffbc893ce4e7e88e0aebcc0c99d0ec",
+   "use": "town: old red medieval stone and brick",
+   "added": "2026-11-07"
+  },
+  "Concrete012": {
+   "sha256": "3424d5cbbab7191d5180f362de0792c99e6a1abd81b6eb3a431c4dfc52fefe7e",
+   "use": "town: old sandstone church plaster wall",
+   "added": "2026-11-07"
+  },
+  "Tiles130": {
+   "sha256": "d9e5a8440b8c46222302aaa91948c2288a3fa0ba5c37e6aa65f940360020ed8a",
+   "use": "town: broken medieval stone floor",
+   "added": "2026-11-07"
+  },
+  "Plaster007": {
+   "sha256": "75c7d96a8e60c4c5073767508e34e88c73677a3641e40bb8aaa0f1d6674391c0",
+   "use": "town: broken old white plaster",
+   "added": "2026-11-07"
+  },
+  "RoofingTiles014B": {
+   "sha256": "62a52cd30b95a91b159fedf3b7f056f88316f16ec479daae285937052fe181f9",
+   "use": "town: old dirty clay roof tiles",
+   "added": "2026-11-07"
+  },
+  "Wood035": {
+   "sha256": "f9372bb1a6e854778c4c04f4a1d87374018ab300956f53c11011186e64ed4693",
+   "use": "wood: dark old rough wood (doors, beams)",
+   "added": "2026-11-07"
+  },
+  "Rock030": {
+   "sha256": "2fd0bc2d214e2487c19062ed0798a85dd135b41cfc12bbaed42d5acae238f989",
+   "use": "town: grey stone wall",
+   "added": "2026-11-07"
   }
  }
 }

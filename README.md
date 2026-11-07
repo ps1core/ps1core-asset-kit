@@ -58,7 +58,7 @@ Not needed for models you make from scratch.
 3. Start from the 1942 cast (`tools/fetch_cast.py`, then `tools/derive.py bf_ger_rifleman mycoll_diver SUB --clips ...`)
    and repaint, reshape or add clips; or model it in any tool and export to MD3 (Blender has community MD3 exporters);
    or build it from code with `tools/md3.py` as `examples/buoy/build.py` does. To repaint a surface that is one material
-   (a tunic as a wetsuit, a wall as concrete), `tools/cc0_material.py --list` shows a shortlist of 16 CC0 materials ps1core already uses (any other of
+   (a tunic as a wetsuit, a wall as concrete), `tools/cc0_material.py --list` shows ps1core's shortlist of 50 vetted CC0 materials (any other of
    [ambientCG](https://ambientcg.com)'s 2,931 assets, as of 2026-11-07, works with `--new`); it writes all
    three maps for one surface (`tools/cc0_material.py Leather030 --out SUB/progs/mycoll/mycoll_diver_GerBody_tunic --tile 3`). Follow `SPEC.md`: 72.7 units for a soldier-sized person,
    feet at z −24, facing +X, in-place clips, one PNG per surface plus `_norm` / `_gloss` / `_glow`.

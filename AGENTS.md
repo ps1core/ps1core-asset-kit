@@ -42,7 +42,7 @@ The person you work for decides what to make and approves how it looks; show the
 - Textures: `tools/tex.py` has `save`, `normal_from_height` (writes the `_norm` map) and tileable `fbm` noise.
 - Real materials: `tools/cc0_material.py` (optional) turns a CC0 ambientCG material into one surface's three maps.
   Use it on surfaces that are one material; on a painted atlas (faces, mixed gear) it shows seams and loses the paint.
-  `--list` is a shortlist (16 that ps1core uses); any other of ambientCG's 2,931 assets (as of 2026-11-07) works with `--new`, and its printed SHA-256 goes
+  `--list` is ps1core's shortlist (50 vetted materials); any other of ambientCG's 2,931 assets (as of 2026-11-07) works with `--new`, and its printed SHA-256 goes
   in SOURCES.md.
 - Use the `uv` scripts' pinned dependencies (numpy 2.3.1, Pillow 11.3.0); don't add packages without asking the person.
 

@@ -10,8 +10,8 @@ is one material: a wetsuit tunic, concrete, rust, rock.
   tools/cc0_material.py MATERIAL_ID --out SUB/progs/mycoll/mycoll_diver_GerBody_tunic [--size 512] [--tile 2] [--new]
   tools/cc0_material.py --list
 
-- reference/cc0.lock.json is a shortlist: the 16 materials ps1core already uses, pinned by SHA-256 (the download must
-  match). ambientCG has many more (2,931 assets as of 2026-11-07: https://ambientcg.com); any of them
+- reference/cc0.lock.json is a shortlist: ps1core's library of vetted materials (50 as of 2026-11-07), pinned by
+  SHA-256 (the download must match). ambientCG has many more (2,931 assets as of 2026-11-07: https://ambientcg.com); any of them
   works with --new.
 - Any other ambientCG id needs --new: it is downloaded and its SHA-256 printed; write the id and the hash in SOURCES.md.
 - --tile N repeats the swatch N x N across the texture (the material looks N times smaller on the model).
@@ -76,7 +76,7 @@ def main():
     a = ap.parse_args()
     if a.list:
         for k, v in json.loads(LOCK.read_text())['materials'].items(): print(f'{k:22s} {v["use"]}')
-        print('A shortlist (ps1core uses these). ambientCG has 2,931 assets (as of 2026-11-07); any other works with --new: https://ambientcg.com')
+        print('A shortlist (ps1core\'s vetted library). ambientCG has 2,931 assets (as of 2026-11-07); any other works with --new: https://ambientcg.com')
         return
     if not a.material or not a.out: ap.error('give MATERIAL_ID and --out PREFIX (or --list)')
     if a.size & (a.size - 1) or not 16 <= a.size <= 2048: sys.exit('--size must be a power of two, 16 to 2048')
