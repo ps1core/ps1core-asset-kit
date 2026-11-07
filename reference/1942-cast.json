@@ -1,0 +1,6501 @@
+{
+ "er_lcvp": {
+  "desc": "a steel landing craft, ramp at the bow; origin on the waterline, deck 6 above it",
+  "height": 114,
+  "lift": 0,
+  "clips": {
+   "up": {
+    "frames": 1,
+    "fps": 1
+   },
+   "drop": {
+    "frames": 24,
+    "fps": 24
+   },
+   "down": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "er_blood": {
+  "desc": "a pool of blood on the sand",
+  "height": 1,
+  "lift": 0.9,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "er_surf": {
+  "desc": "thin surf running up the sand and draining back",
+  "height": 1,
+  "lift": 0,
+  "clips": {
+   "wash": {
+    "frames": 48,
+    "fps": 6
+   }
+  }
+ },
+ "er_whirl": {
+  "desc": "a dead sun inside turning arms of light",
+  "height": 1,
+  "lift": 0,
+  "clips": {
+   "spin": {
+    "frames": 72,
+    "fps": 10
+   },
+   "spin_slow": {
+    "frames": 72,
+    "fps": 4
+   },
+   "spin_fast": {
+    "frames": 72,
+    "fps": 30
+   },
+   "off": {
+    "frames": 1,
+    "fps": 1
+   },
+   "disc": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "er_mg42": {
+  "desc": "an MG42 machine gun on its bipod, a belt running from an ammunition tin, facing along its yaw; clip fire shakes it and flashes the muzzle",
+  "height": 20,
+  "lift": 0,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   },
+   "fire": {
+    "frames": 3,
+    "fps": 60
+   }
+  }
+ },
+ "bf_hedgehog": {
+  "desc": "a steel Czech hedgehog beach obstacle, rusty three-legged anti-boat barrier",
+  "height": 80.4,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_sea_obstacle": {
+  "desc": "a wooden anti-boat sea obstacle post leaning in the surf",
+  "height": 222.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_barbwire": {
+  "desc": "a barbed wire entanglement on wooden posts",
+  "height": 78.9,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_sandbag_i": {
+  "desc": "a straight sandbag wall section",
+  "height": 56.4,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_sandbag_l": {
+  "desc": "an L-shaped sandbag wall corner",
+  "height": 55.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_sandbag_u": {
+  "desc": "a U-shaped sandbag emplacement",
+  "height": 62.1,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_ammo_box": {
+  "desc": "an open ammunition box with cartridges",
+  "height": 43.1,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_crate": {
+  "desc": "a steel supply crate",
+  "height": 53.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_barrel": {
+  "desc": "a steel drum barrel",
+  "height": 50.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_landmine": {
+  "desc": "an anti-tank mine, partly buried",
+  "height": 4.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_flag_ger": {
+  "desc": "a German war flag on a pole (the demo ships only this flag texture)",
+  "height": 66.0,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_wreck_sherman": {
+  "desc": "the burnt-out hull of a Sherman tank, turret askew",
+  "height": 91.5,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_wreck_willy": {
+  "desc": "a wrecked Willys jeep, doors torn off",
+  "height": 49.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_wreck_kubel": {
+  "desc": "a wrecked German Kubelwagen",
+  "height": 45.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_ladder": {
+  "desc": "a 5 m wooden scaling ladder",
+  "height": 195.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_plank": {
+  "desc": "a long wooden plank (shoring, ramps, wreckage)",
+  "height": 5.1,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_climbnet": {
+  "desc": "a rope cargo net for climbing the bluff",
+  "height": 315.0,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_stones": {
+  "desc": "a cluster of European rocks",
+  "height": 154.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_rubble": {
+  "desc": "a chunk of broken concrete, rebar showing",
+  "height": 4.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_telegraph_pole": {
+  "desc": "a telegraph pole with crossarm",
+  "height": 313.1,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_bunker": {
+  "desc": "a concrete bunker with an open embrasure",
+  "height": 157.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_rifle_no4": {
+  "desc": "a Lee-Enfield No.4 rifle lying on the sand",
+  "height": 8.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_rifle_k98": {
+  "desc": "a Kar98k rifle lying on the sand",
+  "height": 7.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_smg_thompson": {
+  "desc": "a Thompson submachine gun lying on the sand",
+  "height": 10.6,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_us_rifleman": {
+  "desc": "a US Army rifleman in olive drab, M1 helmet, assault pack and leggings, No.4 rifle at the ready; first wave on the dog sector",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_sergeant": {
+  "desc": "a US Army sergeant with a Thompson submachine gun and M1 helmet, waving the next squad through the shingle",
+  "height": 72.9,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_ger_rifleman": {
+  "desc": "a German rifleman in feldgrau tunic and steel helmet on the bluff, Kar98k rifle at his shoulder",
+  "height": 72.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_ger_mgunner": {
+  "desc": "a German submachine gunner in feldgrau with an MP40, moving along the trench",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_brit_rifleman": {
+  "desc": "a British Army rifleman in khaki battledress with a Brodie helmet and Lee-Enfield No.4, the desert rat look of 1942",
+  "height": 72.5,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_des_ger_rifleman": {
+  "desc": "an Afrika Korps rifleman in tropical kit and desert helmet, Kar98k in hand; the Tobruk defender",
+  "height": 72.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_jap_rifleman": {
+  "desc": "an Imperial Japanese Army rifleman in mustard-khaki uniform and steel helmet; no Arisaka shipped in the demo, so he carries a Kar98k as a stand-in bolt rifle",
+  "height": 73.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_russ_rifleman": {
+  "desc": "a Red Army rifleman in khaki-olive, bare-headed (the demo cut the Russian helmet texture too); no Mosin shipped, so he carries a Kar98k as a stand-in bolt rifle",
+  "height": 71.6,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_rifleman2": {
+  "desc": "a US Army rifleman in olive drab, M1 helmet, assault pack and leggings, No.4 rifle at the ready; first wave on the dog sector",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_rifleman3": {
+  "desc": "a US Army rifleman in olive drab, M1 helmet, assault pack and leggings, No.4 rifle at the ready; first wave on the dog sector",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_bloody": {
+  "desc": "a US rifleman soaked in blood",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_noleg": {
+  "desc": "a US rifleman, his right leg gone below the knee",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_noarm": {
+  "desc": "a US rifleman, his left arm gone at the elbow",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_kid": {
+  "desc": "a young US private (his smiley is a decal, chosen in the scene)",
+  "height": 69.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_sarge": {
+  "desc": "a big bearded US sergeant in dark kit, Thompson (his white helmet bar is a decal, chosen in the scene)",
+  "height": 80.1,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_limb_leg": {
+  "desc": "a severed leg in a boot",
+  "height": 39.2,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_limb_arm": {
+  "desc": "a severed arm",
+  "height": 22.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_us_nohead": {
+  "desc": "a US rifleman, his head gone",
+  "height": 64.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_torso": {
+  "desc": "the top half of a US rifleman",
+  "height": 51.4,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_us_gutted": {
+  "desc": "a US rifleman opened by shrapnel, both legs gone at the knee",
+  "height": 51.4,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_kid_blood": {
+  "desc": "the young private, in another man's blood",
+  "height": 69.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_sarge_blood": {
+  "desc": "the sergeant, bareheaded, torn open",
+  "height": 79.0,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_limb_head": {
+  "desc": "a severed head",
+  "height": 12.9,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_limb_head2": {
+  "desc": "a severed head, its helmet still on",
+  "height": 13.9,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_er_helmet_bar": {
+  "desc": "a helmet on the sand (its decal is chosen in the scene)",
+  "height": 7.0,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_ger_mg42crew": {
+  "desc": "a German machine gunner (his skull is a decal, chosen in the scene), to lie behind an MG42 (clip lie_mg; the gun is its own model, er_mg42)",
+  "height": 72.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_sarge_nohead": {
+  "desc": "the sergeant, his head gone",
+  "height": 71.3,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_er_head_sarge": {
+  "desc": "the sergeant's head, upright, facing along its yaw",
+  "height": 12.9,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 1,
+    "fps": 1
+   }
+  }
+ },
+ "bf_wd_pale": {
+  "desc": "a US soldier, white, hollow-eyed, staring",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_black": {
+  "desc": "a Black US soldier, hollow-eyed, staring",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_asian": {
+  "desc": "an Asian US soldier, hollow-eyed, staring",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_latino": {
+  "desc": "a Latino US soldier, hollow-eyed, staring",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_woman": {
+  "desc": "a US soldier, a woman, hollow-eyed, staring",
+  "height": 67.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_woman2": {
+  "desc": "a US soldier, a Black woman, hollow-eyed, staring",
+  "height": 67.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_ger": {
+  "desc": "a German rifleman, hollow-eyed, staring",
+  "height": 72.7,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_ger_woman": {
+  "desc": "a German soldier, a woman, hollow-eyed, staring",
+  "height": 67.6,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_pale2": {
+  "desc": "a US soldier, white, hollow-eyed, darker kit",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_black2": {
+  "desc": "a Black US soldier, hollow-eyed, lighter kit",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_bloody": {
+  "desc": "a US soldier soaked in blood, hollow-eyed",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ },
+ "bf_wd_noleg": {
+  "desc": "a US soldier, his right leg gone below the knee, hollow-eyed",
+  "height": 72.8,
+  "lift": 24,
+  "clips": {
+   "idle": {
+    "frames": 18,
+    "fps": 10
+   },
+   "walk": {
+    "frames": 24,
+    "fps": 18
+   },
+   "run": {
+    "frames": 13,
+    "fps": 34
+   },
+   "die": {
+    "frames": 24,
+    "fps": 22
+   },
+   "die_back": {
+    "frames": 17,
+    "fps": 22
+   },
+   "stand": {
+    "frames": 18,
+    "fps": 10
+   },
+   "run_relax": {
+    "frames": 13,
+    "fps": 34
+   },
+   "crouch": {
+    "frames": 18,
+    "fps": 10
+   },
+   "crouch_run": {
+    "frames": 18,
+    "fps": 22
+   },
+   "lie": {
+    "frames": 17,
+    "fps": 8
+   },
+   "crawl": {
+    "frames": 18,
+    "fps": 16
+   },
+   "flinch": {
+    "frames": 11,
+    "fps": 22
+   },
+   "die_head": {
+    "frames": 45,
+    "fps": 22
+   },
+   "die_slow": {
+    "frames": 63,
+    "fps": 18
+   },
+   "blast": {
+    "frames": 8,
+    "fps": 22
+   },
+   "blast_land": {
+    "frames": 19,
+    "fps": 22
+   },
+   "swim": {
+    "frames": 22,
+    "fps": 18
+   },
+   "lie_mg": {
+    "frames": 17,
+    "fps": 8
+   },
+   "tend": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady": {
+    "frames": 18,
+    "fps": 8
+   },
+   "steady_chest": {
+    "frames": 18,
+    "fps": 8
+   },
+   "run_low": {
+    "frames": 13,
+    "fps": 20
+   },
+   "lift_head": {
+    "frames": 35,
+    "fps": 10
+   },
+   "cradle": {
+    "frames": 48,
+    "fps": 10
+   },
+   "die_knees": {
+    "frames": 44,
+    "fps": 12
+   },
+   "die_clutch": {
+    "frames": 35,
+    "fps": 13
+   },
+   "crawl_up": {
+    "frames": 18,
+    "fps": 6
+   },
+   "die_turn": {
+    "frames": 56,
+    "fps": 11
+   },
+   "shake": {
+    "frames": 16,
+    "fps": 18
+   },
+   "drag": {
+    "frames": 18,
+    "fps": 11
+   },
+   "wounded": {
+    "frames": 1,
+    "fps": 1
+   },
+   "breathe": {
+    "frames": 24,
+    "fps": 10
+   },
+   "crawl_slow": {
+    "frames": 18,
+    "fps": 6
+   },
+   "run_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "run_low_slow": {
+    "frames": 13,
+    "fps": 6
+   },
+   "crouch_slow": {
+    "frames": 18,
+    "fps": 9
+   },
+   "walk_water": {
+    "frames": 24,
+    "fps": 11
+   },
+   "run_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "run_b": {
+    "frames": 13,
+    "fps": 20
+   },
+   "run_c": {
+    "frames": 13,
+    "fps": 23
+   },
+   "relax_a": {
+    "frames": 13,
+    "fps": 17
+   },
+   "relax_b": {
+    "frames": 13,
+    "fps": 21
+   },
+   "crouch_a": {
+    "frames": 18,
+    "fps": 20
+   }
+  }
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "1942": {
+  "name": "1942",
+  "desc": "Omaha Beach, 6 June 1944, a low morning sun over the sea, broken cloud: a wide grey-sand foreshore (the surf along y 60 to 0, x -800..800) runs south to a low pebble shingle lip (y -1210..-1230), then the concrete seawall (y -1230..-1246, chest-high) with two long ramps at x -400 and x 340 climbing to the promenade. Behind the wall the grassy bluff rises (y -1264..-1580) to a flat crest with a concrete bunker at x -150, y -1800 looking down the beach. Steel hedgehogs and anti-boat posts dot the surf and wet sand; barbed wire lies across the shingle; a Sherman and a jeep burn where they died. Smoke haze, grey light, no cover. The exits are the breaches; everything between the water and the wire is open ground.",
+  "style": "hd",
+  "floor_z": 0,
+  "actor_area": {
+   "x": [
+    -1600,
+    1600
+   ],
+   "y": [
+    -2450,
+    2390
+   ]
+  },
+  "camera_area": {
+   "x": [
+    -1400,
+    1400
+   ],
+   "y": [
+    -2400,
+    2395
+   ],
+   "z": [
+    -40,
+    1200
+   ]
+  },
+  "landmarks": {
+   "surf line": [
+    0,
+    40,
+    0
+   ],
+   "hedgehog line": [
+    -120,
+    -140,
+    6
+   ],
+   "the shingle": [
+    0,
+    -1220,
+    44
+   ],
+   "the seawall": [
+    0,
+    -1246,
+    86
+   ],
+   "west breach": [
+    -400,
+    -1246,
+    46
+   ],
+   "east breach": [
+    340,
+    -1246,
+    46
+   ],
+   "wrecked Sherman": [
+    155,
+    -700,
+    54
+   ],
+   "the bunker": [
+    -150,
+    -1800,
+    240
+   ],
+   "bluff crest": [
+    0,
+    -1580,
+    240
+   ]
+  }
+ },
+ "1942-weird": {
+  "name": "1942-WEIRD",
+  "desc": "Omaha Beach, 6 June 1944, in a world gone wrong: a dead sun with a burning ring low over the sea, a magenta and violet sky, still mint clouds: a wide grey-sand foreshore (the surf along y 60 to 0, x -800..800) runs south to a low pebble shingle lip (y -1210..-1230), then the concrete seawall (y -1230..-1246, chest-high) with two long ramps at x -400 and x 340 climbing to the promenade. Behind the wall the grassy bluff rises (y -1264..-1580) to a flat crest with a concrete bunker at x -150, y -1800 looking down the beach. Steel hedgehogs and anti-boat posts dot the surf and wet sand; barbed wire lies across the shingle; a Sherman and a jeep burn where they died. Smoke haze, no cover. The exits are the breaches; everything between the water and the wire is open ground.",
+  "style": "hd",
+  "floor_z": 0,
+  "actor_area": {
+   "x": [
+    -1600,
+    1600
+   ],
+   "y": [
+    -2450,
+    2390
+   ]
+  },
+  "camera_area": {
+   "x": [
+    -1400,
+    1400
+   ],
+   "y": [
+    -2400,
+    2395
+   ],
+   "z": [
+    -40,
+    1200
+   ]
+  },
+  "landmarks": {
+   "surf line": [
+    0,
+    40,
+    0
+   ],
+   "hedgehog line": [
+    -120,
+    -140,
+    6
+   ],
+   "the shingle": [
+    0,
+    -1220,
+    44
+   ],
+   "the seawall": [
+    0,
+    -1246,
+    86
+   ],
+   "west breach": [
+    -400,
+    -1246,
+    46
+   ],
+   "east breach": [
+    340,
+    -1246,
+    46
+   ],
+   "wrecked Sherman": [
+    155,
+    -700,
+    54
+   ],
+   "the bunker": [
+    -150,
+    -1800,
+    240
+   ],
+   "bluff crest": [
+    0,
+    -1580,
+    240
+   ]
+  }
+ }
+}
