@@ -17,7 +17,8 @@ is one material: a wetsuit tunic, concrete, rust, rock.
 - --tile N repeats the swatch N x N across the texture (the material looks N times smaller on the model).
 - Downloads the 1K JPG set once (a few MB), cached in ~/.cache/ps1core-assets/cc0/. Only the JPG maps are read.
 
-Mapping: Color -> albedo; NormalGL -> _norm RGB (green up, as tools/tex.py writes; not yet compared in the engine);
+Mapping: Color -> albedo; NormalGL -> _norm RGB (green up: agrees with tools/tex.py, checked on six materials,
+2026-11-07; not yet seen in an in-engine render);
 Displacement -> _norm alpha; 1 - Roughness -> _gloss; Opacity, when the set has one, -> albedo alpha.
 A tileable swatch suits a surface that is one material. On a painted atlas (a face, mixed gear) it shows seams and
 loses the painted detail: blend it in with numpy instead, or keep the original paint.
