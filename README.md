@@ -76,6 +76,14 @@ in-engine preview through the ps1core API, which you or your agent could call yo
 Big models are slow: a soldier's sheet takes a few seconds, a 58,000-vertex shoggoth part a minute or two. Use
 `--clips idle` while you iterate.
 
+## What happens next
+
+Your models become a collection of their own, named after your prefix, hidden while we review it. We render every
+model in the engine, in the sets, in real lighting, and send you the review videos. It may take a round or two of
+changes. When a model is approved we publish your collection and it joins the cast: anyone can then cast it in a film.
+If any of your models is based on the cast (1942 or beyond), your collection is for free films only, like the 1942 sets. Your
+credit goes where `SOURCES.md` says.
+
 ## Testing the kit
 
 ```sh
@@ -86,14 +94,6 @@ tests/run.sh --out DIR    # keep the test submission and the preview sheets to l
 
 It builds the buoy, derives a 1942 soldier and a beyond ghoul, checks them, draws their previews with and without
 maps, and makes sure `check.py` rejects a broken entry. Run it after changing anything in `tools/`.
-
-## What happens next
-
-Your models become a collection of their own, named after your prefix, hidden while we review it. We render every
-model in the engine, in the sets, in real lighting, and send you the review videos. It may take a round or two of
-changes. When a model is approved we publish your collection and it joins the cast: anyone can then cast it in a film.
-If any of your models is based on the cast (1942 or beyond), your collection is for free films only, like the 1942 sets. Your
-credit goes where `SOURCES.md` says.
 
 ## License
 
