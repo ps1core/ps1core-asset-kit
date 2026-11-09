@@ -48,6 +48,11 @@
     198,
     215,
     10
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -100,6 +105,11 @@
     198,
     215,
     10
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -188,6 +198,11 @@
     197,
     214,
     10
+   ],
+   "dance": [
+    215,
+    234,
+    20
    ]
   }
  },
@@ -240,6 +255,11 @@
     197,
     214,
     10
+   ],
+   "dance": [
+    215,
+    234,
+    20
    ]
   }
  },
@@ -292,6 +312,11 @@
     198,
     215,
     10
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -344,6 +369,11 @@
     198,
     215,
     10
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -396,6 +426,11 @@
     198,
     215,
     10
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -618,6 +653,11 @@
     198,
     215,
     7
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -670,6 +710,11 @@
     198,
     215,
     7
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -722,11 +767,16 @@
     198,
     215,
     7
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
  "vo_f": {
-  "desc": "a vampire officer of no army, a woman: greatcoat, belt, peaked cap, tall boots, red eyes",
+  "desc": "a vampire officer of no army, a woman: dark tunic, belt, breeches, peaked cap, tall boots, red eyes",
   "height": 77.8,
   "lift": 24,
   "clips": {
@@ -774,11 +824,16 @@
     198,
     215,
     5
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
  "vo_m": {
-  "desc": "a vampire officer of no army: greatcoat, belt, peaked cap, tall boots, red eyes",
+  "desc": "a vampire officer of no army: dark tunic, belt, breeches, peaked cap, tall boots, red eyes",
   "height": 80.8,
   "lift": 24,
   "clips": {
@@ -826,6 +881,11 @@
     198,
     215,
     5
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  },
@@ -878,6 +938,11 @@
     198,
     215,
     7
+   ],
+   "dance": [
+    216,
+    235,
+    20
    ]
   }
  }

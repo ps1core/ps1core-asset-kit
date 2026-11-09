@@ -31,6 +31,7 @@ anything in the cast can be cast in any set. Run `tools/check.py` on your submis
   `swim`, `flinch`, `die_back`, `run_low`, `crawl_up`, `tend`, `drag`, `breathe`. The full soldier set, with frame
   counts and speeds, is in `reference/1942-cast.json`; the beyond creatures' clips are in `reference/beyond-cast.json`. Reusing a range at another speed (`run_slow`) is fine.
 - New clips are welcome (see WISHLIST.md); name them in lowercase, `_` between words, 15 characters at most.
+- `dance` (every beyond walker since 2026-11-10): standing, arms up and weaving, the body dipping on each beat; one loop is two beats at 120 BPM (20 frames at 20 fps). A character of your own that can dance is welcome to have one.
 
 What the soldiers' clips look like (feet at z −24, measured):
 
