@@ -252,6 +252,26 @@
    "sha256": "2fd0bc2d214e2487c19062ed0798a85dd135b41cfc12bbaed42d5acae238f989",
    "use": "town: grey stone wall",
    "added": "2026-11-07"
+  },
+  "Ground055S": {
+   "sha256": "fd6e6e18af63b517533122c933c4b47de8d0a1b27199287e40f0219610664fe7",
+   "use": "1942 beach (ps1core-kyt): grey-green beach sand",
+   "added": "2026-11-07"
+  },
+  "Ground057": {
+   "sha256": "06640b776d933e60d229f29ff318cdd517eb35f465ebb0b3ee0197b99a7ce241",
+   "use": "1942 beach (ps1core-kyt): smooth wet beach sand",
+   "added": "2026-11-07"
+  },
+  "Gravel041": {
+   "sha256": "89943da9f2aa8555235f16b0bc8eee22bf8eae471bfc5431bedc95eaec468f58",
+   "use": "1942 beach (ps1core-kyt): beach gravel, a shingle bank",
+   "added": "2026-11-07"
+  },
+  "Rocks022": {
+   "sha256": "598d2c25479535d9538cef726eff641a99a3449ff58c82d94a4c84bb018ebc53",
+   "use": "1942 beach (ps1core-kyt): round pebbles, a shingle bank",
+   "added": "2026-11-07"
   }
  }
 }
