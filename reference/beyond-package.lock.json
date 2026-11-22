@@ -1,11 +1,11 @@
 {
  "package": "beyond",
- "name": "beyond-62a0d3ac80c2.tar.gz",
- "sha256": "62a0d3ac80c27128665c672ac88e36de8ac6a8b973b27cd218c5f3f8093209fd",
- "bytes": 336498574,
+ "name": "beyond-52e5def30eeb.tar.gz",
+ "sha256": "52e5def30eebdf28179e6d091d24246c5203e77b83a3451a0c14890a1978c842",
+ "bytes": 348378518,
  "dirs": [
   "progs/beyond",
   "scripts"
  ],
- "url": "https://ps1core-assets.fra1.digitaloceanspaces.com/assets/beyond/beyond-62a0d3ac80c2.tar.gz"
+ "url": "https://ps1core-assets.fra1.digitaloceanspaces.com/assets/beyond/beyond-52e5def30eeb.tar.gz"
 }
